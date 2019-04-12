@@ -63,7 +63,7 @@ var y = 0;
 var colors = ["black","red","gray"]
 var circles = [];
 //var circle = new Circle(250, 250);
-for (var i=0;i<500;i++) {
+for (var i=0;i<300;i++) {
 	var x = Math.random()*(canvas.width - radius * 2) + radius;
 	var y = Math.random()*(canvas.height - radius * 2) + radius;
 	circles.push(new Circle(x, y));
